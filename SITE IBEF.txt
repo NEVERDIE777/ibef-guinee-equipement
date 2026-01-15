@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IBEF GUINEE EQUIPEMENT</title>
+  <style>
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; color:#333; line-height:1.6; }
+    header { background:linear-gradient(135deg,#0a3d62,#1e90ff); color:white; padding:60px 20px; text-align:center; }
+    nav a { color:white; margin:0 12px; text-decoration:none; font-weight:bold; }
+    section { padding:50px 20px; max-width:1100px; margin:auto; }
+    h2 { color:#0a3d62; margin-bottom:20px; }
+    .services { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:25px; }
+    .card { background:#fff; border:1px solid #eee; padding:25px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.08); transition:transform 0.3s; }
+    .card:hover { transform:translateY(-5px); }
+    .btn { display:inline-block; background:#ff9f1a; color:white; padding:12px 25px; border-radius:6px; text-decoration:none; font-weight:bold; }
+    footer { background:#0a3d62; color:white; text-align:center; padding:25px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>IBEF GUINEE EQUIPEMENT</h1>
+  <p>Prestataire de services et fournisseur multi-sectoriel</p>
+  <nav>
+    <a href="#apropos">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="apropos">
+  <h2>Qui sommes-nous ?</h2>
+  <p>
+    <strong>IBEF GUINEE EQUIPEMENT</strong> est un prestataire de services et fournisseur reconnu,
+    spécialisé dans l’accompagnement des entreprises, administrations et organisations
+    à travers des solutions fiables, compétitives et adaptées à leurs besoins.
+  </p>
+  <p>
+    Notre objectif est de devenir un partenaire de confiance en offrant des produits
+    de qualité, un service réactif et un suivi professionnel.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Nos solutions</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Matériels informatiques</h3>
+      <p>Ordinateurs, imprimantes, réseaux et accessoires adaptés aux environnements professionnels.</p>
+    </div>
+    <div class="card">
+      <h3>Équipements de protection (EPI)</h3>
+      <p>Solutions complètes de protection individuelle pour les secteurs industriel et logistique.</p>
+    </div>
+    <div class="card">
+      <h3>Produits agricoles</h3>
+      <p>Engrais agricoles performants et sacs vides pour la conservation et le transport.</p>
+    </div>
+    <div class="card">
+      <h3>Laboratoire & analyses</h3>
+      <p>Appareils, réactifs et consommables pour laboratoires et centres de recherche.</p>
+    </div>
+  </div>
+  <p style="margin-top:30px; text-align:center;">
+    <a href="#contact" class="btn">Demander un devis</a>
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p><strong>Téléphone :</strong> +224 XXX XXX XXX</p>
+  <p><strong>Email :</strong> contact@entreprise.com</p>
+  <p><strong>Adresse :</strong> Ville, Pays</p>
+  <a href="mailto:contact@entreprise.com" class="btn">Nous contacter</a>
+</section>
+
+<footer>
+  <p>&copy; 2026 IBEF GUINEE EQUIPEMENT – Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
+
